@@ -4,7 +4,7 @@ namespace CSharpPractice1
 {
     internal class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             Console.WriteLine("Выберите задание:");
             Console.WriteLine("4. Написать программу обмена значениями двух переменных типа int без использования вспомогательных методов.");
@@ -19,6 +19,7 @@ namespace CSharpPractice1
                     FourthProgram.Run();
                     break;
                 case 5:
+                    FifthProgram.Run();
                     break;
                 case 6:
                     break;
