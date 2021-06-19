@@ -43,6 +43,7 @@
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="SixthProgram.cs" />
+        <Compile Include="ThirdProgram.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="README.md" />
