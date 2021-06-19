@@ -12,7 +12,7 @@ namespace CSharpPractice1
             Console.WriteLine("6. Создать класс с методами, которые могут пригодиться в вашей учебе ");
             Console.WriteLine("Любое другое значение -- Выход");
 
-            var select = Convert.ToInt32(Console.ReadLine());
+            var select = SixthProgram.ReadInt();
             switch (select)
             {
                 case 4:
