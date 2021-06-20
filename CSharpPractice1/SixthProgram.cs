@@ -10,6 +10,7 @@ namespace CSharpPractice1
     {
         public static void Print(string msg) => Console.WriteLine(msg);
         public static int ReadInt() => Convert.ToInt32(Console.ReadLine());
+        public static double ReadDouble() => Convert.ToDouble(Console.ReadLine());
         public static void Pause() => Console.ReadKey();
     }
 }
