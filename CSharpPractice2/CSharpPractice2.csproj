@@ -4,14 +4,14 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{62E96ECF-2C59-494E-B447-A9EB4B6EE8D9}</ProjectGuid>
+        <ProjectGuid>{317EBCBD-635A-4084-9001-54C79E112037}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>CSharpPractice1</RootNamespace>
-        <AssemblyName>CSharpPractice1</AssemblyName>
+        <RootNamespace>CSharpPractice2</RootNamespace>
+        <AssemblyName>CSharpPractice2</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
-        <LangVersion>8</LangVersion>
+        <LangVersion>9</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,11 +43,14 @@
         <Compile Include="FourthProgram.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="SeventhProgram.cs" />
         <Compile Include="SixthProgram.cs" />
-        <Compile Include="ThirdProgram.cs" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include="README.md" />
+      <ProjectReference Include="..\CSharpPractice1\CSharpPractice1.csproj">
+        <Project>{62e96ecf-2c59-494e-b447-a9eb4b6ee8d9}</Project>
+        <Name>CSharpPractice1</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
