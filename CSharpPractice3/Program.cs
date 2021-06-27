@@ -15,6 +15,7 @@ namespace CSharpPractice3
             switch (select)
             {
                 case 1:
+                    FirstProgram.Run();
                     break;
                 case 3:
                     break;
