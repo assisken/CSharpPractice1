@@ -18,6 +18,7 @@ namespace CSharpPractice3
                     FirstProgram.Run();
                     break;
                 case 3:
+                    ThirdProgram.Run();
                     break;
             }
         }

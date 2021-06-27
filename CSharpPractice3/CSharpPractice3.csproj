@@ -41,6 +41,7 @@
         <Compile Include="FirstProgram.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="ThirdProgram.cs" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\CSharpPractice1\CSharpPractice1.csproj">
