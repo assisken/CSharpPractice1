@@ -34,6 +34,6 @@ namespace CSharpPractice2
             Console.WriteLine("Все попытки исчерпаны, до свидания!");
         }
 
-        static bool Check(string login, string password) => login == "root" && password == "GeekBrains";
+        public static bool Check(string login, string password) => login == "root" && password == "GeekBrains";
     }
 }

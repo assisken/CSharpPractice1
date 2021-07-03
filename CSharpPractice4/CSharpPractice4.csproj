@@ -39,6 +39,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="FifthProgram.cs" />
+        <Compile Include="FourthProgram.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
@@ -47,8 +48,13 @@
         <Project>{62e96ecf-2c59-494e-b447-a9eb4b6ee8d9}</Project>
         <Name>CSharpPractice1</Name>
       </ProjectReference>
+      <ProjectReference Include="..\CSharpPractice2\CSharpPractice2.csproj">
+        <Project>{317ebcbd-635a-4084-9001-54c79e112037}</Project>
+        <Name>CSharpPractice2</Name>
+      </ProjectReference>
     </ItemGroup>
     <ItemGroup>
+      <Content Include="accounts.txt" />
       <Content Include="data.txt" />
       <Content Include="matrix.txt" />
     </ItemGroup>

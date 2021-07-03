@@ -1,0 +1,6 @@
+﻿Login1
+password
+admin
+password
+root
+GeekBrains

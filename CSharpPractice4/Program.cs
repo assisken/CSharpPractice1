@@ -7,13 +7,16 @@ namespace CSharpPractice4
         public static void Main(string[] args)
         {
             Console.WriteLine("Выберите задание:");
-            Console.WriteLine("1. Вычисления комплексных чисел");
-            Console.WriteLine("3. Демонстрация класса дробей");
+            Console.WriteLine("4. Аутентификация. Теперь через структуры!");
+            Console.WriteLine("5. Матрица случайных чисел");
             Console.WriteLine("Любое другое значение -- Выход");
 
             var select = CSharpPractice1.SixthProgram.ReadInt();
             switch (select)
             {
+                case 4:
+                    FourthProgram.Run();
+                    break;
                 case 5:
                     FifthProgram.Run();
                     break;
