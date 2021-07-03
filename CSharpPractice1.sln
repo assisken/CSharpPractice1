@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPractice1", "CSharpPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPractice2", "CSharpPractice2\CSharpPractice2.csproj", "{317EBCBD-635A-4084-9001-54C79E112037}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPractice3", "CSharpPractice3\CSharpPractice3.csproj", "{AFBD23F9-E745-483E-B765-CABD0F1267BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{317EBCBD-635A-4084-9001-54C79E112037}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{317EBCBD-635A-4084-9001-54C79E112037}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{317EBCBD-635A-4084-9001-54C79E112037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFBD23F9-E745-483E-B765-CABD0F1267BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBD23F9-E745-483E-B765-CABD0F1267BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBD23F9-E745-483E-B765-CABD0F1267BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBD23F9-E745-483E-B765-CABD0F1267BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
