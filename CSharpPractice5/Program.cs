@@ -17,6 +17,9 @@ namespace CSharpPractice5
                 case 3:
                     ThirdProgram.Run();
                     break;
+                case 4:
+                    FourthProgram.Run();
+                    break;
             }
 
         }
